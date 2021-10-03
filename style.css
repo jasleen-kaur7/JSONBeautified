@@ -1,0 +1,39 @@
+body {
+    min-width: 400px; /* your desired width */
+    max-width: 400px;
+    position: relative;
+    vertical-align:middle;
+    }
+#input{
+    height: 700px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 3rem;
+    min-width: 350px; /* your desired width */
+    max-width: 350px;
+    float: left;
+}
+#output{
+    height: 700px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 1rem;
+    padding: 1rem;
+    width: 42%;
+    float: right;
+    margin-right: 3rem;
+}
+
+button{
+    border-radius: 3px;
+    background-color: rgb(25, 103, 210);
+    margin-left: 2rem;
+    color: white;
+}
+.flex-parent {
+    display: flex;
+  }
+  
+  .jc-center {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
